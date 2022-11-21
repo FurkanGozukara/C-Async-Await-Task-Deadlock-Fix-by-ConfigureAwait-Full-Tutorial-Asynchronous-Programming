@@ -1,0 +1,18 @@
+﻿<Window x:Class="async_programming.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:async_programming"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1031">
+    <Grid>
+        <Button Name="btnTestAsyncDeadLock" Content="test async deadlock" HorizontalAlignment="Left" Margin="45,53,0,0" VerticalAlignment="Top" Height="51" Width="178" Click="btnTestAsyncDeadLock_Click"/>
+        <TextBlock x:Name="txtBlockSourceCode" HorizontalAlignment="Left" Margin="45,128,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="285" Width="727"/>
+        <Button x:Name="btnConfigureAwaitAsyncCode" Content="configure await async code" HorizontalAlignment="Left" Margin="246,53,0,0" VerticalAlignment="Top" Height="51" Width="178" Click="btnConfigureAwaitAsyncCode_Click" />
+        <Button x:Name="btnResponsiveAsyncClick" Content="responsive async click" HorizontalAlignment="Left" Margin="440,53,0,0" VerticalAlignment="Top" Height="51" Width="178" Click="btnResponsiveAsyncClick_Click"  />
+        <Button x:Name="btnTaskExample" Content="task version 1" HorizontalAlignment="Left" Margin="639,53,0,0" VerticalAlignment="Top" Height="51" Width="178" Click="btnTaskExample_Click"   />
+        <Button x:Name="btnTaskVersion2" Content="task version 2" HorizontalAlignment="Left" Margin="833,53,0,0" VerticalAlignment="Top" Height="51" Width="178" Click="btnTaskVersion2_Click"    />
+
+    </Grid>
+</Window>
